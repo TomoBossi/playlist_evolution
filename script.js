@@ -407,6 +407,7 @@ async function buildHTML() {
     const title = document.createElement("h3");
     const album_artists = document.createElement("p");
     const duration = document.createElement("h4");
+    const flac = document.createElement("h4");
     const playlistIndex = document.createElement("h5");
     const cover_div = document.createElement("div");
     const cover = document.createElement("img");
@@ -417,6 +418,9 @@ async function buildHTML() {
 
     title.innerHTML = `${"<span class=\"index\">" + index.padStart(4, '0') + "</span> " + fullPlaylist[index]["title"]}`;
     album_artists.innerHTML = `${fullPlaylist[index]["album"] + " - " + fullPlaylist[index]["artists"]}`;
+    if (fullPlaylist[index]["file"].split('.').pop() === "flac") {
+      flac.innerHTML = "FLAC";
+    }
     playlistIndex.innerHTML = formattedPlaylistIndex;
 
     cover.setAttribute("src", thumb_cover_path);
@@ -425,6 +429,7 @@ async function buildHTML() {
     title.classList.add("prevent-select");
     album_artists.classList.add("prevent-select");
     duration.classList.add("prevent-select");
+    flac.classList.add("prevent-select");
     playlistIndex.classList.add("prevent-select");
     cover.classList.add("prevent-select");
     div_info.classList.add("info");
@@ -432,6 +437,7 @@ async function buildHTML() {
     div_info.appendChild(title);
     div_info.appendChild(album_artists);
     div_info.appendChild(duration);
+    div_info.appendChild(flac);
     div_info.appendChild(playlistIndex);
     cover_div.appendChild(cover);
     div_row.appendChild(cover_div);
@@ -440,6 +446,7 @@ async function buildHTML() {
     title.classList.add("fade");
     album_artists.classList.add("fade");
     cover_div.classList.add("cover-placeholder");
+    flac.classList.add("flac")
     div_row.setAttribute("id", index);
     if (!isMobile) { div_row.classList.add("hover"); }
 
@@ -526,7 +533,6 @@ function seconds(time) {
   if (time === null) {
     return 0;
   }
-
   const [hours, minutes, secDecimals] = time.split(':');
   const [sec, decimals] = secDecimals.split('.');
   let totalSeconds = +hours * 3600 + +minutes * 60 + +sec

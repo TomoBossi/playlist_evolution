@@ -173,6 +173,11 @@ h4, h5 {
   color: rgb(125, 125, 125);
 }
 
+h4.flac {
+  color: rgb(151, 112, 13);
+  top: calc(var(--scale)*37.5px);
+}
+
 h5 {
   right: calc(var(--scale)*80px);
   color: rgb(255, 255, 255);
