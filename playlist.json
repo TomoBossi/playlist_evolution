@@ -60,6 +60,30 @@
     "album_cover": "texhnolyze_ost_vol_2.jpg"
   },
   {
+    "uid": "FZHRPER",
+    "title": "Peaches En Regalia",
+    "artists": "Frank Zappa",
+    "album": "Hot Rats",
+    "file": "./music/Peaches_en_Regalia.flac",
+    "duration": "00:03:39",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": null,
+    "album_cover": "0WYYrC9My9rYWigac003hw_Hot_Rats.jpg"
+  },
+  {
+    "uid": "LMPH",
+    "title": "Hipercandombe",
+    "artists": "La Maquina De Hacer P\u00e1jaros",
+    "album": "Peliculas",
+    "file": "./music/Hipercandombe.flac",
+    "duration": "00:04:30",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": null,
+    "album_cover": "6hlwylwLskentQQsbTKpcj_Peliculas.jpg"
+  },
+  {
     "uid": "YSDFDF",
     "title": "胎児の夢",
     "artists": "Yoshiko Sai",
@@ -72,7 +96,31 @@
     "album_cover": "fetus.jpg"
   },
   {
-    "uid": "SSI",
+    "uid": "W9EHWF",
+    "title": "The Fool",
+    "artists": "Windows96, Gavriel",
+    "album": "Empty Hiding World",
+    "file": "./music/The_Fool.flac",
+    "duration": "00:03:48",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": null,
+    "album_cover": "7B9eJo7vRYl1ztGxTOeK4R_Empty_Hiding_World.jpg"
+  },
+  {
+    "uid": "ANTM1E",
+    "title": "Esplanada",
+    "artists": "Alt",
+    "album": "New Twilight Music Vol. 1",
+    "file": "./music/Esplanada.flac",
+    "duration": "00:02:27",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": null,
+    "album_cover": "new_twilight.jpg"
+  },
+  {
+    "uid": "SSSBI",
     "title": "Images",
     "artists": "Shibusashirazu",
     "album": "渋星 (Shibuboshi)",

@@ -58,6 +58,10 @@ body {
   user-select: none;
 }
 
+#tracklist {
+  margin-bottom: calc(var(--scale)*20px);;
+}
+
 #tracklist > div {
   position: relative;
   overflow: visible;
