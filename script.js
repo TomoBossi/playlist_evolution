@@ -399,7 +399,6 @@ async function buildHTML() {
   cover_large.classList.add("prevent-select");
   cover_large_div.appendChild(cover_large);
   cover_large_div.setAttribute("onclick", "hideCover()");
-  let totalPlaylistDuration = 0;
 
   Object.keys(fullPlaylist).forEach(index => {
     const div_row = document.createElement("div");
@@ -459,15 +458,11 @@ async function buildHTML() {
     if (isMobile) { div_row.setAttribute("onclick", `playIndex(${index})`); }
     if (trackDuration < 3600*2) {
       formattedDuration = formattedParsedDuration(trackDuration);
-      totalPlaylistDuration += trackDuration;
     }
 
     duration.innerHTML = formattedDuration;
     tracklist.appendChild(div_row);
   });
-  const [totalDays, totalHours, totalMinutes, totalSeconds] = parseDuration(totalPlaylistDuration);
-  const playlist_duration = document.getElementById("playlist_duration");
-  playlist_duration.innerHTML = `Total length (no rain): ${totalDays} days, ${totalHours} hours, ${totalMinutes} minutes and ${totalSeconds} seconds`;
 }
 
 function showCover(index) {
