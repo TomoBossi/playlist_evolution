@@ -72,6 +72,18 @@
     "album_cover": "fetus.jpg"
   },
   {
+    "uid": "SSI",
+    "title": "Images",
+    "artists": "Shibusashirazu",
+    "album": "渋星 (Shibuboshi)",
+    "file": "./music/Images.flac",
+    "duration": "00:08:46",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": null,
+    "album_cover": "19ep9N2BtcRvx9wBdvNCT0_\u6e0b\u661f.jpg"
+  },
+  {
     "uid": "HKFBSS",
     "title": "Sand Storm",
     "artists": "Himiko Kikuchi",
