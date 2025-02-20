@@ -7,10 +7,7 @@ const statefulPlaylistEditing = false;
 const eventLoopRefreshMs = 50;
 let currentVolume = 0.5 + 0.5*isMobile;
 
-let player;
-let mp3_player = document.getElementById("mp3_player");
-let flac_player = document.getElementById("flac_player");
-
+let player = document.getElementById("player");
 let shuffle = false;
 let replay = false;
 let custom = false;
@@ -71,28 +68,29 @@ async function init() {
   playIndex(currentTrackFullPlaylistIndex);
 }
 
-function getPlayer(track) {
-  if (track["file"].split('.').pop() === "mp3") {
-    return mp3_player;
+function setupPlayer(track) {
+  player.setAttribute("src", track["file"]);
+  if (track["file"].split('.').pop() === "flac") {
+    player.setAttribute("type", "audio/flac");
+  } else {
+    player.setAttribute("type", "audio/mp3");
   }
-  return flac_player;
 }
 
 function checkForStateChanges() {
   setInterval(() => {
-      currentTrackElapsed = 0;
-      currentTrackDuration = 0;
-
-      if (player !== undefined) {
+      if (currentTrack !== undefined) {
+        currentTrackElapsed = 0;
+        currentTrackDuration = 0;
         currentTrackElapsed = player.currentTime - seconds(currentTrack["start"]);
         updateCurrentTrackDuration();
-      }
-      updatePlayedBar();
+        updatePlayedBar();
 
-      if (currentTrackElapsed > 0 &&
-          currentTrackDuration > 0 &&
-          currentTrackElapsed >= currentTrackDuration) {
-        playNext(1, false);
+        if (currentTrackElapsed > 0 &&
+            currentTrackDuration > 0 &&
+            currentTrackElapsed >= currentTrackDuration) {
+          playNext(1, false);
+        }
       }
     },
     eventLoopRefreshMs
@@ -125,8 +123,7 @@ function playIndex(index, continuing = false, manual = false, updateState = true
       muted = player.muted;
       player.pause();
     }
-    player = getPlayer(currentTrack);
-    player.setAttribute("src", currentTrack["file"]);
+    setupPlayer(currentTrack);
     changeVolume(0.0);
     player.muted = muted;
     player.play();
