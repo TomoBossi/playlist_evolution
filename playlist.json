@@ -60,6 +60,18 @@
     "album_cover": "texhnolyze_ost_vol_2.jpg"
   },
   {
+    "uid": "KCLL",
+    "title": "Lizard (Prince Rupert Awakes / Bolero / The Battle Of Glass Tears / Big Top)",
+    "artists": "King Crimson",
+    "album": "Lizard",
+    "file": "./music/Lizard.mp3",
+    "duration": "00:23:20",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": null,
+    "album_cover": "lizard.jpg"
+  },
+  {
     "uid": "FZHRPER",
     "title": "Peaches En Regalia",
     "artists": "Frank Zappa",
