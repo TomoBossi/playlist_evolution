@@ -1,0 +1,74 @@
+[
+  {
+    "uid": "JHMNTNA",
+    "title": "Not Afraid",
+    "artists": "Joe Hisaishi",
+    "album": "My Neighbor Totoro OST",
+    "file": "./music/Not_Afraid.mp3",
+    "duration": "00:00:44",
+    "start": null,
+    "end": null,
+    "volume_multiplier": null,
+    "album_cover": "2Dn4ABFUYJbrlMF7K12RT3_My_Neighbor_Totoro_Soundtrack_Collection.jpg"
+  },
+  {
+    "uid": "HKFBSS",
+    "title": "Sand Storm",
+    "artists": "Himiko Kikuchi",
+    "album": "Flying Beagle",
+    "file": "./music/Sand_Storm.flac",
+    "duration": "00:05:39",
+    "start": null,
+    "end": "00:05:36.64",
+    "volume_multiplier": null,
+    "album_cover": "himiko_kikuchi_flying_beagle.jpg"
+  },
+  {
+    "uid": "KUTMoMO",
+    "title": "Ohayo",
+    "artists": "Keishi Urata",
+    "album": "Texhnolyze OST: The Man of Men",
+    "file": "./music/Texhnolyze_Ohayo_Code.mp3",
+    "duration": null,
+    "start": null,
+    "end": "00:00:38.0",
+    "volume_multiplier": null,
+    "album_cover": "texhnolyze_ost_vol_2.jpg"
+  },
+  {
+    "uid": "KUTMoMC07TX",
+    "title": "Code 07TX",
+    "artists": "Keishi Urata",
+    "album": "Texhnolyze OST: The Man of Men",
+    "file": "./music/Texhnolyze_Ohayo_Code.mp3",
+    "duration": "00:03:57",
+    "start": "00:00:38.0",
+    "end": null,
+    "volume_multiplier": null,
+    "album_cover": "texhnolyze_ost_vol_2.jpg"
+  },
+  {
+    "uid": "MYDRRR2PP",
+    "title": "Psychedelic Parade ~ Theme of Durarara!!",
+    "artists": "Makoto Yoshimori",
+    "album": "Durarara!! OST: Psychedelic Dreams Vol. 02",
+    "file": "./music/Psychedelic_Parade_Durarara_no_Theme.mp3",
+    "duration": "00:03:44",
+    "start": null,
+    "end": null,
+    "volume_multiplier": null,
+    "album_cover": "durarara_ost_vol_2.jpg"
+  },
+  {
+    "uid": "YNCRCKP",
+    "title": "The Cat King's Parade",
+    "artists": "Yuji Nomi",
+    "album": "The Cat Returns OST",
+    "file": "./music/The_Cat_Kings_Parade.mp3",
+    "duration": "00:01:19",
+    "start": null,
+    "end": null,
+    "volume_multiplier": null,
+    "album_cover": "1KDCap6BtIiJsmvilIA9oG_The_Cat_Returns_(Original_Soundtrack).jpg"
+  }
+]
