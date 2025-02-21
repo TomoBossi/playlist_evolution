@@ -3,7 +3,7 @@
 history.scrollRestoration = "manual";
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone|Opera Mini/i.test(navigator.userAgent);
 const randomStarterTrack = true;
-const statefulPlaylistEditing = false;
+const statefulPlaylistEditing = true;
 const eventLoopRefreshMs = 50;
 let currentVolume = 0.5 + 0.5*isMobile;
 

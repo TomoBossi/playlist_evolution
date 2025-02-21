@@ -16,8 +16,8 @@ def resizeImg(img: tuple, size: int, file_name_array: list[str], prev_sizes_arra
             new_image = image.convert("RGB").resize((size, size))
             new_image.save(new_filename, quality = 95)
 
-os.chdir(os.path.join(os.path.dirname(__file__), "cover_art"))
-file_name_array = os.listdir()
+img_directory = "./img/cover_art/"
+file_name_array = [img_directory + file_name for file_name in os.listdir(img_directory)]
 file_img_array = [(f, Image.open(f)) for f in file_name_array]
 sizes = [440, 50]
 for counter, img in enumerate(file_img_array):

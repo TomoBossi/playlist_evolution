@@ -1,27 +1,363 @@
 [
   {
+    "uid": "PLNJ13ND",
+    "title": "Native Dancer",
+    "artists": "Pat Lajoie",
+    "album": "Nu-Jazz, Set 13",
+    "file": "./music/Native_Dancer.flac",
+    "duration": "00:05:00",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "native_dancer.jpg"
+  },
+  {
+    "uid": "BETET",
+    "title": "Evil Thoughts",
+    "artists": "Brian Eno",
+    "album": "Textures",
+    "file": "./music/Evil_Thoughts.mp3",
+    "duration": "00:01:58",
+    "start": null,
+    "end": null,
+    "volume_multiplier": null,
+    "album_cover": "textures_eno.jpg"
+  },
+  {
+    "uid": "JHNAUSICAA",
+    "title": "Symphonic Poem \u201cNAUSICA\u00c4\u201d - \u300e\u98a8\u306e\u8c37\u306e\u30ca\u30a6\u30b7\u30ab\u300f\u3088\u308a",
+    "artists": "Joe Hisaishi",
+    "album": "WORKS\u30fbI",
+    "file": "./music/Symphonic_Poem_NAUSICAÄ.flac",
+    "duration": "00:17:33",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "6HmZwqLsuQm2cuPVXDpDid_WORKS\u30fbI.jpg"
+  },
+  {
+    "uid": "JHLCSUMMV",
+    "title": "Morning in the Mining Village",
+    "artists": "Joe Hisaishi",
+    "album": "Laputa: Castle in the Sky OST (USA version)",
+    "file": "./music/Morning_Mining_Village.flac",
+    "duration": "00:01:08",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "5pr7SupDag0Yn7tAhZPD18_Laputa_-_Castle_in_the_Sky_USA_Version_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHLCSICS",
+    "title": "Castle in the Sky",
+    "artists": "Joe Hisaishi",
+    "album": "Laputa: Castle in the Sky OST Image Album",
+    "file": "./music/Castle_in_the_Sky_Image.flac",
+    "duration": "00:03:55",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "0vfNVoJYgLtN08jla6lEAm_Laputa_-_Castle_in_the_Sky_Image_Album_-The_Girl_Who_Fell_from_the_Sky-.jpg"
+  },
+  {
+    "uid": "JHLCSCS",
+    "title": "Castle in the Sky",
+    "artists": "Joe Hisaishi",
+    "album": "Laputa: Castle in the Sky OST",
+    "file": "./music/Castle_in_the_Sky.flac",
+    "duration": "00:04:37",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "1gmwJD2H9nSka3uCAlGC4P_Laputa_-_Castle_in_the_Sky_Soundtrack_-The_Mystery_of_the_Levitation_Stone-.jpg"
+  },
+  {
+    "uid": "AILCSCY",
+    "title": "Carrying You",
+    "artists": "Azumi Inoue",
+    "album": "Laputa: Castle in the Sky OST",
+    "file": "./music/Carrying_You.flac",
+    "duration": "00:04:08",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "1gmwJD2H9nSka3uCAlGC4P_Laputa_-_Castle_in_the_Sky_Soundtrack_-The_Mystery_of_the_Levitation_Stone-.jpg"
+  },
+  {
+    "uid": "JHMNTPW",
+    "title": "The Path of the Wind",
+    "artists": "Joe Hisaishi",
+    "album": "My Neighbor Totoro OST",
+    "file": "./music/The_Path_of_the_Wind.flac",
+    "duration": "00:03:17",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2Dn4ABFUYJbrlMF7K12RT3_My_Neighbor_Totoro_Soundtrack_Collection.jpg"
+  },
+  {
+    "uid": "JHMNTEW",
+    "title": "Evening Wind",
+    "artists": "Joe Hisaishi",
+    "album": "My Neighbor Totoro OST",
+    "file": "./music/Evening_Wind.flac",
+    "duration": "00:01:01",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2Dn4ABFUYJbrlMF7K12RT3_My_Neighbor_Totoro_Soundtrack_Collection.jpg"
+  },
+  {
     "uid": "JHMNTNA",
     "title": "Not Afraid",
     "artists": "Joe Hisaishi",
     "album": "My Neighbor Totoro OST",
-    "file": "./music/Not_Afraid.mp3",
+    "file": "./music/Not_Afraid.flac",
     "duration": "00:00:44",
     "start": null,
     "end": null,
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "2Dn4ABFUYJbrlMF7K12RT3_My_Neighbor_Totoro_Soundtrack_Collection.jpg"
+  },
+  {
+    "uid": "JHKDSCD",
+    "title": "On a Clear Day",
+    "artists": "Joe Hisaishi",
+    "album": "Kiki's Delivery Service OST",
+    "file": "./music/On_a_Clear_Day.flac",
+    "duration": "00:02:15",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2NO5lYWs4aWpsmHOjF4JHk_Kikis_Delivery_Service_Soundtrack_Music_Collection.jpg"
+  },
+  {
+    "uid": "JHKDSUP",
+    "title": "An Unusual Painting",
+    "artists": "Joe Hisaishi",
+    "album": "Kiki's Delivery Service OST",
+    "file": "./music/An_Unusual_Painting.flac",
+    "duration": "00:01:24",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2NO5lYWs4aWpsmHOjF4JHk_Kikis_Delivery_Service_Soundtrack_Music_Collection.jpg"
+  },
+  {
+    "uid": "KHOYSPR",
+    "title": "Safflower Picking in Rain",
+    "artists": "Katsu Hoshi",
+    "album": "Only Yesterday OST",
+    "file": "./music/Safflower_Picking_in_Rain.flac",
+    "duration": "00:01:38",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "3TSh2VevYJEb5wfrnyHMVM_Only_Yesterday_Original_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHPRWA",
+    "title": "The Wind of Ages - When a Human Can be a Human",
+    "artists": "Joe Hisaishi",
+    "album": "Porco Rosso OST",
+    "file": "./music/The_Wind_of_Ages.flac",
+    "duration": "00:02:50",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "6NhWTFHoOj5n0UhbBkq5G3_Porco_Rosso_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHPRITMG",
+    "title": "The Theme of Marco and Gina",
+    "artists": "Joe Hisaishi",
+    "album": "Porco Rosso OST Image Album",
+    "file": "./music/The_Theme_of_Marco_and_Gina.flac",
+    "duration": "00:04:05",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "4CD6wcfmrKCorMP2K8DMkw_Porco_Rosso_Image_Album.jpg"
+  },
+  {
+    "uid": "JHPRLS",
+    "title": "LOST SPIRIT",
+    "artists": "Joe Hisaishi",
+    "album": "Porco Rosso OST",
+    "file": "./music/Lost_Spirit.flac",
+    "duration": "00:04:11",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "6NhWTFHoOj5n0UhbBkq5G3_Porco_Rosso_Soundtrack.jpg"
+  },
+  {
+    "uid": "SNOWFI",
+    "title": "First Impression",
+    "artists": "Shigeru Nagata",
+    "album": "The Ocean Waves OST",
+    "file": "./music/First_Impression.flac",
+    "duration": "00:01:38",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "6nuyCZwPP0gdYpdoNCfhVU_The_Ocean_Waves_(Original_Soundtrack).jpg"
+  },
+  {
+    "uid": "HGPPPP",
+    "title": "Pom Poko \"Genki Song\"",
+    "artists": "Hasso Gakudan",
+    "album": "Pom Poko OST",
+    "file": "./music/Pom_Poko_Main_Theme.flac",
+    "duration": "00:03:38",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "7tQlktNddJ8Qjbdi2Hi2mI_Pom_Poko_Soundtrack.jpg"
+  },
+  {
+    "uid": "YNWHHT",
+    "title": "A Hilly Town",
+    "artists": "Yuji Nomi",
+    "album": "Whisper of the Heart OST",
+    "file": "./music/A_Hilly_Town.flac",
+    "duration": "00:03:13",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "0yOhYn348rz2j3mUne0fpH_Whisper_of_the_Heart_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHPMD2W",
+    "title": "Departure -To the West-",
+    "artists": "Joe Hisaishi",
+    "album": "Princess Mononoke OST",
+    "file": "./music/Departure_to_the_West.flac",
+    "duration": "00:02:32",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2ZHxPDTCRU5STetdmXeW6p_Princess_Mononoke_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHPMSAFDG",
+    "title": "San and Ashitaka in the Forest of the Deer God",
+    "artists": "Joe Hisaishi",
+    "album": "Princess Mononoke OST",
+    "file": "./music/San_and_Ashitaka.flac",
+    "duration": "00:01:39",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2ZHxPDTCRU5STetdmXeW6p_Princess_Mononoke_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHPMAS",
+    "title": "Ashitaka and San",
+    "artists": "Joe Hisaishi",
+    "album": "Princess Mononoke OST",
+    "file": "./music/Ashitaka_and_San.flac",
+    "duration": "00:03:12",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "2ZHxPDTCRU5STetdmXeW6p_Princess_Mononoke_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHSA1SD",
+    "title": "One Summer Day",
+    "artists": "Joe Hisaishi",
+    "album": "Spirashiited Away OST",
+    "file": "./music/One_Summer_Day.flac",
+    "duration": "00:03:19",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "766a5fKJYFy9ii4Kz2bQy9_Spirited_Away_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHSADB",
+    "title": "The Dragon Boy",
+    "artists": "Joe Hisaishi",
+    "album": "Spirited Away OST",
+    "file": "./music/The_Dragon_Boy.flac",
+    "duration": "00:02:12",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "766a5fKJYFy9ii4Kz2bQy9_Spirited_Away_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHSA6S",
+    "title": "The Sixth Station",
+    "artists": "Joe Hisaishi",
+    "album": "Spirited Away OST",
+    "file": "./music/The_Sixth_Station.flac",
+    "duration": "00:03:38",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "766a5fKJYFy9ii4Kz2bQy9_Spirited_Away_Soundtrack.jpg"
   },
   {
     "uid": "YNCRCKP",
     "title": "The Cat King's Parade",
     "artists": "Yuji Nomi",
     "album": "The Cat Returns OST",
-    "file": "./music/The_Cat_Kings_Parade.mp3",
+    "file": "./music/The_Cat_Kings_Parade.flac",
     "duration": "00:01:19",
     "start": null,
     "end": null,
-    "volume_multiplier": null,
+    "volume_multiplier": 0.8,
     "album_cover": "1KDCap6BtIiJsmvilIA9oG_The_Cat_Returns_(Original_Soundtrack).jpg"
+  },
+  {
+    "uid": "JHHOWLMGRS",
+    "title": "Merry-go-round (Symphonic Variation)",
+    "artists": "Joe Hisaishi",
+    "album": "WORKS\u30fbIII",
+    "file": "./music/Symphonic_Variation_Merry_go_Round.flac",
+    "duration": "00:13:42",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "4anlwrNcoawbMW0MBJe1d4_WORKS_III.jpg"
+  },
+  {
+    "uid": "TTTEC",
+    "title": "To the Countryside",
+    "artists": "Tamiya Terashima",
+    "album": "Tales from Earthsea OST",
+    "file": "./music/To_the_Countryside.flac",
+    "duration": "00:01:34",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "66P1f9J3PbfNKk0YXHYMyf_Tales_from_Earthsea_Soundtrack.jpg"
+  },
+  {
+    "uid": "JHPPRSF",
+    "title": "Ponyo Rides a Sea of Fish",
+    "artists": "Joe Hisaishi",
+    "album": "Ponyo on the Cliff by the Sea OST",
+    "file": "./music/Ponyo_Rides_a_Sea_of_Fish.flac",
+    "duration": "00:03:36",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "15rOJIfBtL56saE9EIlocm_Ponyo_on_the_Cliff_by_the_Sea_Soundtrack.jpg"
+  },
+  {
+    "uid": "CCAAS",
+    "title": "Arrietty's Song",
+    "artists": "C\u00e9cile Corbel",
+    "album": "Arrietty OST",
+    "file": "./music/Arrietty_Song.flac",
+    "duration": "00:03:33",
+    "start": null,
+    "end": null,
+    "volume_multiplier": 0.75,
+    "album_cover": "0ldESLoQyyP80ynVU2gych_Arrietty_Soundtrack.jpg"
   },
   {
     "uid": "MYDRRR2PP",
@@ -32,7 +368,7 @@
     "duration": "00:03:44",
     "start": null,
     "end": null,
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "durarara_ost_vol_2.jpg"
   },
   {
@@ -44,7 +380,7 @@
     "duration": null,
     "start": null,
     "end": "00:00:38.0",
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "texhnolyze_ost_vol_2.jpg"
   },
   {
@@ -56,7 +392,7 @@
     "duration": "00:03:57",
     "start": "00:00:38.0",
     "end": null,
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "texhnolyze_ost_vol_2.jpg"
   },
   {
@@ -68,7 +404,7 @@
     "duration": "00:23:20",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "lizard.jpg"
   },
   {
@@ -80,7 +416,7 @@
     "duration": "00:03:39",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "0WYYrC9My9rYWigac003hw_Hot_Rats.jpg"
   },
   {
@@ -92,7 +428,7 @@
     "duration": "00:04:30",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "6hlwylwLskentQQsbTKpcj_Peliculas.jpg"
   },
   {
@@ -104,7 +440,7 @@
     "duration": "00:09:05",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "fetus.jpg"
   },
   {
@@ -116,7 +452,7 @@
     "duration": "00:03:48",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "7B9eJo7vRYl1ztGxTOeK4R_Empty_Hiding_World.jpg"
   },
   {
@@ -128,7 +464,7 @@
     "duration": "00:02:27",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "new_twilight.jpg"
   },
   {
@@ -140,7 +476,7 @@
     "duration": "00:08:46",
     "start": null,
     "end": null, 
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "19ep9N2BtcRvx9wBdvNCT0_\u6e0b\u661f.jpg"
   },
   {
@@ -152,7 +488,7 @@
     "duration": "00:05:39",
     "start": null,
     "end": "00:05:36.64",
-    "volume_multiplier": null,
+    "volume_multiplier": 0.75,
     "album_cover": "himiko_kikuchi_flying_beagle.jpg"
   }
 ]
