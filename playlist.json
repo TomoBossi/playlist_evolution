@@ -432,6 +432,18 @@
     "album_cover": "6hlwylwLskentQQsbTKpcj_Peliculas.jpg"
   },
   {
+    "uid": "FLCGJ",
+    "title": "Galaxy In Janaki",
+    "artists": "Flying Lotus",
+    "album": "Cosmogramma",
+    "file": "./music/Galaxy_In_Janaki.flac",
+    "duration": "00:02:28",
+    "start": null,
+    "end": null, 
+    "volume_multiplier": 0.75,
+    "album_cover_filename": "5c7XChrHxYaqykCZLaGM5f_Cosmogramma.jpg"
+  },
+  {
     "uid": "YSDFDF",
     "title": "胎児の夢",
     "artists": "Yoshiko Sai",
